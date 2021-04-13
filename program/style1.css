@@ -1,0 +1,210 @@
+
+
+
+
+/*會員登入跟購物車設定*/
+#icon i
+{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    color: #667179de;
+}
+
+
+
+/*設定滑鼠滑過下拉式選單*/
+div .dropdown-menu li:hover .sub-menu {visibility: visible;}
+div .dropdown:hover .dropdown-menu {display: block;}
+
+/*設定logo圖片大小*/
+#first img 
+{
+    width: 50px
+}
+
+/*導覽列底色淺藍*/
+.navbar 
+{
+    background-color: #e9d38b;
+}
+
+/*導覽列文字顏色白色,字體調整*/
+.navbar .navbar-text 
+{
+    color: #fdfdfd;
+}
+
+/*調整導覽列字體尺寸*/
+a
+{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*導覽列超連結連過後的顏色等有超連結來確認*/
+.navbar .navbar-text a 
+{
+    color: #83827e;
+}
+
+/*導覽列滑過的字體顏色等有超連結來確認*/ 
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus 
+{
+    color: #83827e; 
+}
+
+/*等有超連結的時候來確認*/
+.navbar .navbar-nav .nav-link 
+{
+    color: #fdfdfd;
+    border-radius: .50rem;
+    margin: 0 0.25em;
+}
+
+  /*下拉式選單方框的底色和框框顏色*/
+.navbar .navbar-nav .dropdown-menu 
+{
+    background-color: #caab68;
+    border:none;
+}
+
+/*下拉式選單字體顏色白色*/
+.navbar .navbar-nav .dropdown-menu .dropdown-item 
+{
+    color: #fdfdfd;
+}
+
+/*滑過下拉式選單的底色和字體顏色,滑過會變粗體*/
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active 
+{
+  color: #72644f;
+  background-color: #a18d70;
+  font-weight: bold;
+  line-height: 1.5
+}
+
+
+/*滑過導覽列的底色跟字體顏色*/
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus 
+{
+  color:#847d6f;
+  background-color:  #f5e9e2;
+}
+
+/*漢堡的底色*/
+.navbar .navbar-toggler 
+{
+    background-color: #775a3e;
+
+}
+/*整個購物車下拉設定*/
+.shopping-cart {
+    margin: 20px 0;
+    float: right;
+    background: white;
+    width: 320px;
+    position: relative;
+    border-radius: 3px;
+    padding: 20px;}
+
+/*標籤*/
+.badge 
+{
+    background-color: #c09e6b;
+    border-radius: 0px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+ /*第一層設定*/
+ .shopping-cart-top 
+ {
+   border-bottom: 1px solid #E8E8E8;
+   padding-bottom: 15px;
+ }
+/*第一層總金額浮動靠右設定*/    
+.shopping-cart-total 
+{
+     float: right;
+}
+
+/*購物清單*/
+.shopping-cart-items 
+{    
+   padding-top: 20px;
+}
+.shopping-cart-items > li 
+{
+       margin-bottom: 18px;
+}
+/*清單商品照片*/
+img .product 
+{
+     float: left;
+     margin-right: 12px;
+}
+   
+   .item-name
+{
+     display: block;
+ float:right;
+     padding-top: 10px;
+     font-size: 16px;
+   }
+   
+.item-price
+{
+     color: black;
+     margin-right: 8px;
+ float:right;
+   }
+   
+.item-quantity 
+{
+     color: red;
+ float:right;
+   }
+
+/*隔開背景色塊的白色區塊*/
+#second .row-one
+{
+    background-color:white;
+    height: 10px;
+}   
+/*背景色塊*/
+#second .row-two
+{
+    background-color:rgb(238, 167, 109);
+    height: 750px;
+}   
+
+#second h1
+{
+    padding-top: 20px;
+    /*font-family: 'Gloria Hallelujah', cursive;*/
+    font-family: 'East Sea Dokdo', cursive; 
+    font-size: 120px;
+}
+#second h4
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    /*font-family: 'Gloria Hallelujah', cursive;*/ 
+    font-family: 'East Sea Dokdo', cursive; 
+    font-size: 40px;
+}
